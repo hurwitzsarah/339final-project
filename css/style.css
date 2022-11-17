@@ -24,7 +24,11 @@ nav ul{
 
 nav li{
     padding: 8px;
-    border: 4px solid #c4cad0ff;
+    border: 2px solid #c4cad0ff;
+}
+
+nav li:active{
+    border: 2px #c4cad0ff dotted;
 }
 
 /* skip to content button */
@@ -50,7 +54,7 @@ main {
 }
 .eyes{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
 }
 .josh, .jake, .sam, .danny{
@@ -69,6 +73,15 @@ main h3{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+/* media query for desktop view */
+@media screen and (min-width: 900px){
+    .eyes {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
 }
 
 
