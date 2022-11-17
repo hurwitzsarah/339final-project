@@ -63,6 +63,14 @@ main h3{
     font-style: italic;
 }
 
+.about_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* colors */
 /* --magnolia: #fcf7ffff;
